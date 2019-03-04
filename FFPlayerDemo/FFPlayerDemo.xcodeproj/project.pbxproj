@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BFAD6CDAF5580F516AC8EDB /* libPods-FFPlayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF898BC76E2718FD8BE6AC /* libPods-FFPlayerDemoUITests.a */; };
+		52E4EAE32F7AEB3EA625FC8D /* libPods-FFPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3194017A9C518F329166DC64 /* libPods-FFPlayerDemo.a */; };
+		9543F4832227B0350086B2CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4822227B0350086B2CD /* AppDelegate.m */; };
+		9543F4862227B0350086B2CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4852227B0350086B2CD /* ViewController.m */; };
+		9543F4892227B0350086B2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4872227B0350086B2CD /* Main.storyboard */; };
+		9543F48B2227B0360086B2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9543F48A2227B0360086B2CD /* Assets.xcassets */; };
+		9543F48E2227B0360086B2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543F48C2227B0360086B2CD /* LaunchScreen.storyboard */; };
+		9543F4912227B0360086B2CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4902227B0360086B2CD /* main.m */; };
+		9543F49B2227B0360086B2CD /* FFPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F49A2227B0360086B2CD /* FFPlayerDemoTests.m */; };
+		9543F4A62227B0360086B2CD /* FFPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4A52227B0360086B2CD /* FFPlayerDemoUITests.m */; };
+		9543F4C62227B0430086B2CD /* play_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4B72227B0430086B2CD /* play_pause@2x.png */; };
+		9543F4C92227B0430086B2CD /* play_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4BA2227B0430086B2CD /* play_pause@3x.png */; };
+		9543F4CA2227B0430086B2CD /* play_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4BB2227B0430086B2CD /* play_back@3x.png */; };
+		9543F4CB2227B0430086B2CD /* play_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4BC2227B0430086B2CD /* play_play@2x.png */; };
+		9543F4CC2227B0430086B2CD /* play_replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4BD2227B0430086B2CD /* play_replay@2x.png */; };
+		9543F4CD2227B0430086B2CD /* play_replay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4BE2227B0430086B2CD /* play_replay@3x.png */; };
+		9543F4CE2227B0430086B2CD /* play_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4BF2227B0430086B2CD /* play_play@3x.png */; };
+		9543F4CF2227B0430086B2CD /* play_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4C02227B0430086B2CD /* play_back@2x.png */; };
+		9543F4D02227B0430086B2CD /* play_full_screen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4C12227B0430086B2CD /* play_full_screen@3x.png */; };
+		9543F4D12227B0430086B2CD /* play_full_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4C22227B0430086B2CD /* play_full_screen@2x.png */; };
+		9543F4D22227B0430086B2CD /* FFPlayerCommandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4C42227B0430086B2CD /* FFPlayerCommandView.m */; };
+		9543F4D32227B0430086B2CD /* FFVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4C52227B0430086B2CD /* FFVideoPlayer.m */; };
+		9543F4DA2227C7690086B2CD /* play_slider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4D82227C7690086B2CD /* play_slider@3x.png */; };
+		9543F4DB2227C7690086B2CD /* play_slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4D92227C7690086B2CD /* play_slider@2x.png */; };
+		9543F4DE2228D2C00086B2CD /* FFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4DD2228D2C00086B2CD /* FFListViewController.m */; };
+		9543F4E12228D2CE0086B2CD /* FFNomalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4E02228D2CE0086B2CD /* FFNomalViewController.m */; };
+		9543F4E42228FB970086B2CD /* FFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4E32228FB970086B2CD /* FFBrightnessView.m */; };
+		9543F4E62228FE240086B2CD /* playgesture_BrightnessSun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */; };
+		E7F60CC38D930CE6F2782B60 /* libPods-FFPlayerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFBEA8843FBE069C38585A5 /* libPods-FFPlayerDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9543F4972227B0360086B2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9543F4762227B0350086B2CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9543F47D2227B0350086B2CD;
+			remoteInfo = FFPlayerDemo;
+		};
+		9543F4A22227B0360086B2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9543F4762227B0350086B2CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9543F47D2227B0350086B2CD;
+			remoteInfo = FFPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3194017A9C518F329166DC64 /* libPods-FFPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB4A91A5B1F9674868AD10C /* Pods-FFPlayerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoUITests/Pods-FFPlayerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AFBEA8843FBE069C38585A5 /* libPods-FFPlayerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFPlayerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9543F47E2227B0350086B2CD /* FFPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9543F4812227B0350086B2CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9543F4822227B0350086B2CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9543F4842227B0350086B2CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9543F4852227B0350086B2CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9543F4882227B0350086B2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9543F48A2227B0360086B2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9543F48D2227B0360086B2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9543F48F2227B0360086B2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9543F4902227B0360086B2CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9543F4962227B0360086B2CD /* FFPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9543F49A2227B0360086B2CD /* FFPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPlayerDemoTests.m; sourceTree = "<group>"; };
+		9543F49C2227B0360086B2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9543F4A12227B0360086B2CD /* FFPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9543F4A52227B0360086B2CD /* FFPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFPlayerDemoUITests.m; sourceTree = "<group>"; };
+		9543F4A72227B0360086B2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9543F4B42227B0430086B2CD /* FFPlayerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPlayerMacro.h; sourceTree = "<group>"; };
+		9543F4B52227B0430086B2CD /* FFPlayerCommandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPlayerCommandView.h; sourceTree = "<group>"; };
+		9543F4B72227B0430086B2CD /* play_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_pause@2x.png"; sourceTree = "<group>"; };
+		9543F4BA2227B0430086B2CD /* play_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_pause@3x.png"; sourceTree = "<group>"; };
+		9543F4BB2227B0430086B2CD /* play_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_back@3x.png"; sourceTree = "<group>"; };
+		9543F4BC2227B0430086B2CD /* play_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_play@2x.png"; sourceTree = "<group>"; };
+		9543F4BD2227B0430086B2CD /* play_replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_replay@2x.png"; sourceTree = "<group>"; };
+		9543F4BE2227B0430086B2CD /* play_replay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_replay@3x.png"; sourceTree = "<group>"; };
+		9543F4BF2227B0430086B2CD /* play_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_play@3x.png"; sourceTree = "<group>"; };
+		9543F4C02227B0430086B2CD /* play_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_back@2x.png"; sourceTree = "<group>"; };
+		9543F4C12227B0430086B2CD /* play_full_screen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_full_screen@3x.png"; sourceTree = "<group>"; };
+		9543F4C22227B0430086B2CD /* play_full_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_full_screen@2x.png"; sourceTree = "<group>"; };
+		9543F4C32227B0430086B2CD /* FFVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFVideoPlayer.h; sourceTree = "<group>"; };
+		9543F4C42227B0430086B2CD /* FFPlayerCommandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPlayerCommandView.m; sourceTree = "<group>"; };
+		9543F4C52227B0430086B2CD /* FFVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFVideoPlayer.m; sourceTree = "<group>"; };
+		9543F4D82227C7690086B2CD /* play_slider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_slider@3x.png"; sourceTree = "<group>"; };
+		9543F4D92227C7690086B2CD /* play_slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_slider@2x.png"; sourceTree = "<group>"; };
+		9543F4DC2228D2C00086B2CD /* FFListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFListViewController.h; sourceTree = "<group>"; };
+		9543F4DD2228D2C00086B2CD /* FFListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFListViewController.m; sourceTree = "<group>"; };
+		9543F4DF2228D2CE0086B2CD /* FFNomalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFNomalViewController.h; sourceTree = "<group>"; };
+		9543F4E02228D2CE0086B2CD /* FFNomalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFNomalViewController.m; sourceTree = "<group>"; };
+		9543F4E22228FB970086B2CD /* FFBrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFBrightnessView.h; sourceTree = "<group>"; };
+		9543F4E32228FB970086B2CD /* FFBrightnessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFBrightnessView.m; sourceTree = "<group>"; };
+		9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playgesture_BrightnessSun@2x.png"; sourceTree = "<group>"; };
+		A0FF898BC76E2718FD8BE6AC /* libPods-FFPlayerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFPlayerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8806B776411CD91D852E560 /* Pods-FFPlayerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoTests/Pods-FFPlayerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB26319B6B1E73924CE4486E /* Pods-FFPlayerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoTests/Pods-FFPlayerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D13D783ED89C9650C46FC638 /* Pods-FFPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemo/Pods-FFPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DF8FF724C4BE30AAC9D4DA78 /* Pods-FFPlayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoUITests/Pods-FFPlayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB028187B96996F63F57392 /* Pods-FFPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemo/Pods-FFPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9543F47B2227B0350086B2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E4EAE32F7AEB3EA625FC8D /* libPods-FFPlayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9543F4932227B0360086B2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F60CC38D930CE6F2782B60 /* libPods-FFPlayerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9543F49E2227B0360086B2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFAD6CDAF5580F516AC8EDB /* libPods-FFPlayerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9543F4752227B0350086B2CD = {
+			isa = PBXGroup;
+			children = (
+				9543F4802227B0350086B2CD /* FFPlayerDemo */,
+				9543F4992227B0360086B2CD /* FFPlayerDemoTests */,
+				9543F4A42227B0360086B2CD /* FFPlayerDemoUITests */,
+				9543F47F2227B0350086B2CD /* Products */,
+				EE68CC86D57E7BEAE853985E /* Pods */,
+				F74A4A43A4606D038CF77012 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9543F47F2227B0350086B2CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9543F47E2227B0350086B2CD /* FFPlayerDemo.app */,
+				9543F4962227B0360086B2CD /* FFPlayerDemoTests.xctest */,
+				9543F4A12227B0360086B2CD /* FFPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9543F4802227B0350086B2CD /* FFPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9543F4B32227B0430086B2CD /* FFPlayer */,
+				9543F4812227B0350086B2CD /* AppDelegate.h */,
+				9543F4822227B0350086B2CD /* AppDelegate.m */,
+				9543F4842227B0350086B2CD /* ViewController.h */,
+				9543F4852227B0350086B2CD /* ViewController.m */,
+				9543F4DC2228D2C00086B2CD /* FFListViewController.h */,
+				9543F4DD2228D2C00086B2CD /* FFListViewController.m */,
+				9543F4DF2228D2CE0086B2CD /* FFNomalViewController.h */,
+				9543F4E02228D2CE0086B2CD /* FFNomalViewController.m */,
+				9543F4872227B0350086B2CD /* Main.storyboard */,
+				9543F48A2227B0360086B2CD /* Assets.xcassets */,
+				9543F48C2227B0360086B2CD /* LaunchScreen.storyboard */,
+				9543F48F2227B0360086B2CD /* Info.plist */,
+				9543F4902227B0360086B2CD /* main.m */,
+			);
+			path = FFPlayerDemo;
+			sourceTree = "<group>";
+		};
+		9543F4992227B0360086B2CD /* FFPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9543F49A2227B0360086B2CD /* FFPlayerDemoTests.m */,
+				9543F49C2227B0360086B2CD /* Info.plist */,
+			);
+			path = FFPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		9543F4A42227B0360086B2CD /* FFPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9543F4A52227B0360086B2CD /* FFPlayerDemoUITests.m */,
+				9543F4A72227B0360086B2CD /* Info.plist */,
+			);
+			path = FFPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		9543F4B32227B0430086B2CD /* FFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9543F4B62227B0430086B2CD /* Images */,
+				9543F4B42227B0430086B2CD /* FFPlayerMacro.h */,
+				9543F4C32227B0430086B2CD /* FFVideoPlayer.h */,
+				9543F4C52227B0430086B2CD /* FFVideoPlayer.m */,
+				9543F4B52227B0430086B2CD /* FFPlayerCommandView.h */,
+				9543F4C42227B0430086B2CD /* FFPlayerCommandView.m */,
+				9543F4E22228FB970086B2CD /* FFBrightnessView.h */,
+				9543F4E32228FB970086B2CD /* FFBrightnessView.m */,
+			);
+			path = FFPlayer;
+			sourceTree = "<group>";
+		};
+		9543F4B62227B0430086B2CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */,
+				9543F4D92227C7690086B2CD /* play_slider@2x.png */,
+				9543F4D82227C7690086B2CD /* play_slider@3x.png */,
+				9543F4B72227B0430086B2CD /* play_pause@2x.png */,
+				9543F4BA2227B0430086B2CD /* play_pause@3x.png */,
+				9543F4BB2227B0430086B2CD /* play_back@3x.png */,
+				9543F4BC2227B0430086B2CD /* play_play@2x.png */,
+				9543F4BD2227B0430086B2CD /* play_replay@2x.png */,
+				9543F4BE2227B0430086B2CD /* play_replay@3x.png */,
+				9543F4BF2227B0430086B2CD /* play_play@3x.png */,
+				9543F4C02227B0430086B2CD /* play_back@2x.png */,
+				9543F4C12227B0430086B2CD /* play_full_screen@3x.png */,
+				9543F4C22227B0430086B2CD /* play_full_screen@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EE68CC86D57E7BEAE853985E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB028187B96996F63F57392 /* Pods-FFPlayerDemo.debug.xcconfig */,
+				D13D783ED89C9650C46FC638 /* Pods-FFPlayerDemo.release.xcconfig */,
+				CB26319B6B1E73924CE4486E /* Pods-FFPlayerDemoTests.debug.xcconfig */,
+				C8806B776411CD91D852E560 /* Pods-FFPlayerDemoTests.release.xcconfig */,
+				DF8FF724C4BE30AAC9D4DA78 /* Pods-FFPlayerDemoUITests.debug.xcconfig */,
+				4FB4A91A5B1F9674868AD10C /* Pods-FFPlayerDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F74A4A43A4606D038CF77012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3194017A9C518F329166DC64 /* libPods-FFPlayerDemo.a */,
+				5AFBEA8843FBE069C38585A5 /* libPods-FFPlayerDemoTests.a */,
+				A0FF898BC76E2718FD8BE6AC /* libPods-FFPlayerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9543F47D2227B0350086B2CD /* FFPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9543F4AA2227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemo" */;
+			buildPhases = (
+				29DC7CE3E8D7E274E366BD52 /* [CP] Check Pods Manifest.lock */,
+				9543F47A2227B0350086B2CD /* Sources */,
+				9543F47B2227B0350086B2CD /* Frameworks */,
+				9543F47C2227B0350086B2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFPlayerDemo;
+			productName = FFPlayerDemo;
+			productReference = 9543F47E2227B0350086B2CD /* FFPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9543F4952227B0360086B2CD /* FFPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9543F4AD2227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemoTests" */;
+			buildPhases = (
+				3A170CDD040969074281E1AD /* [CP] Check Pods Manifest.lock */,
+				9543F4922227B0360086B2CD /* Sources */,
+				9543F4932227B0360086B2CD /* Frameworks */,
+				9543F4942227B0360086B2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9543F4982227B0360086B2CD /* PBXTargetDependency */,
+			);
+			name = FFPlayerDemoTests;
+			productName = FFPlayerDemoTests;
+			productReference = 9543F4962227B0360086B2CD /* FFPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9543F4A02227B0360086B2CD /* FFPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9543F4B02227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemoUITests" */;
+			buildPhases = (
+				0B30D8D1705572302D6BFC5C /* [CP] Check Pods Manifest.lock */,
+				9543F49D2227B0360086B2CD /* Sources */,
+				9543F49E2227B0360086B2CD /* Frameworks */,
+				9543F49F2227B0360086B2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9543F4A32227B0360086B2CD /* PBXTargetDependency */,
+			);
+			name = FFPlayerDemoUITests;
+			productName = FFPlayerDemoUITests;
+			productReference = 9543F4A12227B0360086B2CD /* FFPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9543F4762227B0350086B2CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "曹诚飞";
+				TargetAttributes = {
+					9543F47D2227B0350086B2CD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9543F4952227B0360086B2CD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9543F47D2227B0350086B2CD;
+					};
+					9543F4A02227B0360086B2CD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9543F47D2227B0350086B2CD;
+					};
+				};
+			};
+			buildConfigurationList = 9543F4792227B0350086B2CD /* Build configuration list for PBXProject "FFPlayerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9543F4752227B0350086B2CD;
+			productRefGroup = 9543F47F2227B0350086B2CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9543F47D2227B0350086B2CD /* FFPlayerDemo */,
+				9543F4952227B0360086B2CD /* FFPlayerDemoTests */,
+				9543F4A02227B0360086B2CD /* FFPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9543F47C2227B0350086B2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9543F48E2227B0360086B2CD /* LaunchScreen.storyboard in Resources */,
+				9543F4C92227B0430086B2CD /* play_pause@3x.png in Resources */,
+				9543F4CA2227B0430086B2CD /* play_back@3x.png in Resources */,
+				9543F4CE2227B0430086B2CD /* play_play@3x.png in Resources */,
+				9543F4CC2227B0430086B2CD /* play_replay@2x.png in Resources */,
+				9543F4E62228FE240086B2CD /* playgesture_BrightnessSun@2x.png in Resources */,
+				9543F4CF2227B0430086B2CD /* play_back@2x.png in Resources */,
+				9543F4CB2227B0430086B2CD /* play_play@2x.png in Resources */,
+				9543F4CD2227B0430086B2CD /* play_replay@3x.png in Resources */,
+				9543F4C62227B0430086B2CD /* play_pause@2x.png in Resources */,
+				9543F48B2227B0360086B2CD /* Assets.xcassets in Resources */,
+				9543F4D02227B0430086B2CD /* play_full_screen@3x.png in Resources */,
+				9543F4DB2227C7690086B2CD /* play_slider@2x.png in Resources */,
+				9543F4892227B0350086B2CD /* Main.storyboard in Resources */,
+				9543F4DA2227C7690086B2CD /* play_slider@3x.png in Resources */,
+				9543F4D12227B0430086B2CD /* play_full_screen@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9543F4942227B0360086B2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9543F49F2227B0360086B2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B30D8D1705572302D6BFC5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFPlayerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29DC7CE3E8D7E274E366BD52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A170CDD040969074281E1AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFPlayerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9543F47A2227B0350086B2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9543F4E12228D2CE0086B2CD /* FFNomalViewController.m in Sources */,
+				9543F4862227B0350086B2CD /* ViewController.m in Sources */,
+				9543F4912227B0360086B2CD /* main.m in Sources */,
+				9543F4DE2228D2C00086B2CD /* FFListViewController.m in Sources */,
+				9543F4832227B0350086B2CD /* AppDelegate.m in Sources */,
+				9543F4E42228FB970086B2CD /* FFBrightnessView.m in Sources */,
+				9543F4D22227B0430086B2CD /* FFPlayerCommandView.m in Sources */,
+				9543F4D32227B0430086B2CD /* FFVideoPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9543F4922227B0360086B2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9543F49B2227B0360086B2CD /* FFPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9543F49D2227B0360086B2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9543F4A62227B0360086B2CD /* FFPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9543F4982227B0360086B2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9543F47D2227B0350086B2CD /* FFPlayerDemo */;
+			targetProxy = 9543F4972227B0360086B2CD /* PBXContainerItemProxy */;
+		};
+		9543F4A32227B0360086B2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9543F47D2227B0350086B2CD /* FFPlayerDemo */;
+			targetProxy = 9543F4A22227B0360086B2CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9543F4872227B0350086B2CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9543F4882227B0350086B2CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9543F48C2227B0360086B2CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9543F48D2227B0360086B2CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9543F4A82227B0360086B2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9543F4A92227B0360086B2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9543F4AB2227B0360086B2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB028187B96996F63F57392 /* Pods-FFPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H32CEM469;
+				INFOPLIST_FILE = FFPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9543F4AC2227B0360086B2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13D783ED89C9650C46FC638 /* Pods-FFPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H32CEM469;
+				INFOPLIST_FILE = FFPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9543F4AE2227B0360086B2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB26319B6B1E73924CE4486E /* Pods-FFPlayerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H32CEM469;
+				INFOPLIST_FILE = FFPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFPlayerDemo.app/FFPlayerDemo";
+			};
+			name = Debug;
+		};
+		9543F4AF2227B0360086B2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8806B776411CD91D852E560 /* Pods-FFPlayerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H32CEM469;
+				INFOPLIST_FILE = FFPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFPlayerDemo.app/FFPlayerDemo";
+			};
+			name = Release;
+		};
+		9543F4B12227B0360086B2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8FF724C4BE30AAC9D4DA78 /* Pods-FFPlayerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H32CEM469;
+				INFOPLIST_FILE = FFPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFPlayerDemo;
+			};
+			name = Debug;
+		};
+		9543F4B22227B0360086B2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB4A91A5B1F9674868AD10C /* Pods-FFPlayerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H32CEM469;
+				INFOPLIST_FILE = FFPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9543F4792227B0350086B2CD /* Build configuration list for PBXProject "FFPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9543F4A82227B0360086B2CD /* Debug */,
+				9543F4A92227B0360086B2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9543F4AA2227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9543F4AB2227B0360086B2CD /* Debug */,
+				9543F4AC2227B0360086B2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9543F4AD2227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9543F4AE2227B0360086B2CD /* Debug */,
+				9543F4AF2227B0360086B2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9543F4B02227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9543F4B12227B0360086B2CD /* Debug */,
+				9543F4B22227B0360086B2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9543F4762227B0350086B2CD /* Project object */;
+}
