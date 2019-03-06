@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <FLEXManager.h>
 #import "FFListViewController.h"
 #import "FFNomalViewController.h"
 #import "FFVideoPlayer.h"
@@ -57,17 +56,6 @@
     FFListViewController *listVc = [[FFListViewController alloc] init];
     [self.navigationController pushViewController:listVc animated:YES];
 }
-
-#if DEBUG
-- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
-{
-    [super motionBegan:motion withEvent:event];
-    
-    if (motion == UIEventSubtypeMotionShake) {
-        [[FLEXManager sharedManager] showExplorer];
-    }
-}
-#endif
 
 - (BOOL)shouldAutorotate {
     return NO;

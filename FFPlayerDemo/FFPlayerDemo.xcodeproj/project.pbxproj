@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BFAD6CDAF5580F516AC8EDB /* libPods-FFPlayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF898BC76E2718FD8BE6AC /* libPods-FFPlayerDemoUITests.a */; };
-		52E4EAE32F7AEB3EA625FC8D /* libPods-FFPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3194017A9C518F329166DC64 /* libPods-FFPlayerDemo.a */; };
 		9543F4832227B0350086B2CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4822227B0350086B2CD /* AppDelegate.m */; };
 		9543F4862227B0350086B2CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4852227B0350086B2CD /* ViewController.m */; };
 		9543F4892227B0350086B2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4872227B0350086B2CD /* Main.storyboard */; };
@@ -35,7 +33,6 @@
 		9543F4E12228D2CE0086B2CD /* FFNomalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4E02228D2CE0086B2CD /* FFNomalViewController.m */; };
 		9543F4E42228FB970086B2CD /* FFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4E32228FB970086B2CD /* FFBrightnessView.m */; };
 		9543F4E62228FE240086B2CD /* playgesture_BrightnessSun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */; };
-		E7F60CC38D930CE6F2782B60 /* libPods-FFPlayerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFBEA8843FBE069C38585A5 /* libPods-FFPlayerDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3194017A9C518F329166DC64 /* libPods-FFPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB4A91A5B1F9674868AD10C /* Pods-FFPlayerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoUITests/Pods-FFPlayerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5AFBEA8843FBE069C38585A5 /* libPods-FFPlayerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFPlayerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9543F47E2227B0350086B2CD /* FFPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9543F4812227B0350086B2CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9543F4822227B0350086B2CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,12 +93,6 @@
 		9543F4E22228FB970086B2CD /* FFBrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFBrightnessView.h; sourceTree = "<group>"; };
 		9543F4E32228FB970086B2CD /* FFBrightnessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFBrightnessView.m; sourceTree = "<group>"; };
 		9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playgesture_BrightnessSun@2x.png"; sourceTree = "<group>"; };
-		A0FF898BC76E2718FD8BE6AC /* libPods-FFPlayerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFPlayerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8806B776411CD91D852E560 /* Pods-FFPlayerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoTests/Pods-FFPlayerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		CB26319B6B1E73924CE4486E /* Pods-FFPlayerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoTests/Pods-FFPlayerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D13D783ED89C9650C46FC638 /* Pods-FFPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemo/Pods-FFPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		DF8FF724C4BE30AAC9D4DA78 /* Pods-FFPlayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemoUITests/Pods-FFPlayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBB028187B96996F63F57392 /* Pods-FFPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-FFPlayerDemo/Pods-FFPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E4EAE32F7AEB3EA625FC8D /* libPods-FFPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F60CC38D930CE6F2782B60 /* libPods-FFPlayerDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BFAD6CDAF5580F516AC8EDB /* libPods-FFPlayerDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +127,6 @@
 				9543F4992227B0360086B2CD /* FFPlayerDemoTests */,
 				9543F4A42227B0360086B2CD /* FFPlayerDemoUITests */,
 				9543F47F2227B0350086B2CD /* Products */,
-				EE68CC86D57E7BEAE853985E /* Pods */,
-				F74A4A43A4606D038CF77012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,29 +214,6 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		EE68CC86D57E7BEAE853985E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EBB028187B96996F63F57392 /* Pods-FFPlayerDemo.debug.xcconfig */,
-				D13D783ED89C9650C46FC638 /* Pods-FFPlayerDemo.release.xcconfig */,
-				CB26319B6B1E73924CE4486E /* Pods-FFPlayerDemoTests.debug.xcconfig */,
-				C8806B776411CD91D852E560 /* Pods-FFPlayerDemoTests.release.xcconfig */,
-				DF8FF724C4BE30AAC9D4DA78 /* Pods-FFPlayerDemoUITests.debug.xcconfig */,
-				4FB4A91A5B1F9674868AD10C /* Pods-FFPlayerDemoUITests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F74A4A43A4606D038CF77012 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3194017A9C518F329166DC64 /* libPods-FFPlayerDemo.a */,
-				5AFBEA8843FBE069C38585A5 /* libPods-FFPlayerDemoTests.a */,
-				A0FF898BC76E2718FD8BE6AC /* libPods-FFPlayerDemoUITests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,7 +221,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9543F4AA2227B0360086B2CD /* Build configuration list for PBXNativeTarget "FFPlayerDemo" */;
 			buildPhases = (
-				29DC7CE3E8D7E274E366BD52 /* [CP] Check Pods Manifest.lock */,
 				9543F47A2227B0350086B2CD /* Sources */,
 				9543F47B2227B0350086B2CD /* Frameworks */,
 				9543F47C2227B0350086B2CD /* Resources */,
@@ -412,28 +371,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-FFPlayerDemoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29DC7CE3E8D7E274E366BD52 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FFPlayerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -645,18 +582,18 @@
 		};
 		9543F4AB2227B0360086B2CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBB028187B96996F63F57392 /* Pods-FFPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7H32CEM469;
+				DEVELOPMENT_TEAM = FSWXRKVU96;
 				INFOPLIST_FILE = FFPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -665,18 +602,18 @@
 		};
 		9543F4AC2227B0360086B2CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D13D783ED89C9650C46FC638 /* Pods-FFPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7H32CEM469;
+				DEVELOPMENT_TEAM = FSWXRKVU96;
 				INFOPLIST_FILE = FFPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caochengfei.FFPlayerDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -685,7 +622,6 @@
 		};
 		9543F4AE2227B0360086B2CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB26319B6B1E73924CE4486E /* Pods-FFPlayerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -705,7 +641,6 @@
 		};
 		9543F4AF2227B0360086B2CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8806B776411CD91D852E560 /* Pods-FFPlayerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -725,7 +660,6 @@
 		};
 		9543F4B12227B0360086B2CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF8FF724C4BE30AAC9D4DA78 /* Pods-FFPlayerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H32CEM469;
@@ -744,7 +678,6 @@
 		};
 		9543F4B22227B0360086B2CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FB4A91A5B1F9674868AD10C /* Pods-FFPlayerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H32CEM469;
