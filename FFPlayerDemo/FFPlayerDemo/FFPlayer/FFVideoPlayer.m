@@ -478,7 +478,7 @@ typedef NS_ENUM(NSUInteger, FFPlayerStatus) {
 - (void)addNotificationObserver {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onDeviceOrientationChange) name:UIDeviceOrientationDidChangeNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidEnterBackground) name:UIApplicationWillResignActiveNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidEnterPlayGround) name:UIApplicationDidBecomeActiveNotification object:self];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidEnterPlayGround) name:UIApplicationDidBecomeActiveNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playerItemDidPlayEnd) name:AVPlayerItemDidPlayToEndTimeNotification object:_playerItem];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playerItemPlaybackStalled) name:AVPlayerItemPlaybackStalledNotification object:_playerItem];
 }
