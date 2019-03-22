@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FFPlayerCommandView.h"
+#import "FFPlayerMacro.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -25,52 +26,34 @@ typedef NS_ENUM(NSUInteger, FFPlayerLayerGravity) {
 };
 
 @interface FFVideoPlayer : UIView
-/**
- 视频URL
- */
-@property (nonatomic ,strong, nonnull) NSURL       *videoURL;
-
-/**
- 填充模式
- */
-@property (nonatomic ,assign) FFPlayerLayerGravity playerLayerGravity;
-
-/**
- 界面控制层
- */
-@property (nonatomic ,strong, nullable) FFPlayerCommandView  *commandView;
-
-/**
- 播放器主页面
- */
-@property (nonatomic ,strong, nullable) UIViewController     *parentVC;
-
-/**
- 竖屏的坐标
- */
-@property (nonatomic ,assign) CGRect               portraitReact;
-
-/**
- 开始播放
- */
+/// 视频链接
+@property (nonatomic ,strong, nonnull) NSURL                    *videoURL;
+/// 填充模式
+@property (nonatomic ,assign) FFPlayerLayerGravity              playerLayerGravity;
+/// 界面控制层
+@property (nonatomic ,strong, nullable) FFPlayerCommandView     *commandView;
+/// 播放器主页面
+@property (nonatomic ,strong, nullable) UIViewController        *parentVC;
+/// 竖屏坐标
+@property (nonatomic ,assign) CGRect                            portraitReact;
+/// 播放结束回调
+@property (nonatomic ,copy) void(^playEndBlock)(void);
+/// 初始化
+- (instancetype)initWithFrame:(CGRect)frame;
+/// 根据tableview初始化
+- (instancetype)initWithTableView:(UITableView *)tableView;
+/// 开始播放
 - (void)startToPlayer;
-
-/**
- 暂停播放
- */
+/// 暂停播放
 - (void)pauseToPlayer;
-
-/**
- 准备播放
- */
+/// 准备播放
 - (void)preparePlay;
-
-/**
- 重新播放
- */
+/// 重新播放
 - (void)replayBack;
-
-
+/// 重置
+- (void)resetPlayer;
+/// 销毁，需要外部 player = nil;
+- (void)destroyPlayer;
 @end
 
 NS_ASSUME_NONNULL_END

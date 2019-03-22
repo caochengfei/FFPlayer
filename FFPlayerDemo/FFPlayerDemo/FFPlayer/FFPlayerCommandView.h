@@ -20,6 +20,7 @@ typedef void(^ReplayActionBlock)(void);
 typedef void(^BackActionBlock)(void);
 
 @interface FFPlayerCommandView : UIView
+// CallBack
 @property (nonatomic ,copy) PlayActionBlock         playActionBlock;
 @property (nonatomic ,copy) SliderSlippingBlock     sliderIsSlipping;
 @property (nonatomic ,copy) SliderDidChangedBlock   sliderDidChanged;
@@ -28,7 +29,7 @@ typedef void(^BackActionBlock)(void);
 @property (nonatomic ,copy) PanActionBlock          panActionBlock;
 @property (nonatomic ,copy) ReplayActionBlock       replayActionBlock;
 @property (nonatomic ,copy) BackActionBlock         backActionBlock;
-
+// View
 @property (nonatomic ,strong) UIView                    *topView;           // 上部视图
 @property (nonatomic ,strong) UIView                    *bottomView;        // 底部视图
 @property (nonatomic ,strong) UIProgressView            *progress;          // 缓冲进度
@@ -41,11 +42,10 @@ typedef void(^BackActionBlock)(void);
 @property (nonatomic ,strong) UISlider                  *volumnSlider;      // 音量slider
 @property (nonatomic ,strong) UILabel                   *forwardOrBackward; // 快进快退label
 @property (nonatomic ,strong) UIActivityIndicatorView   *activityView;      // 缓冲小菊花
-
-
-@property (nonatomic ,strong) UITapGestureRecognizer *tapGesture;
-@property (nonatomic ,strong) UITapGestureRecognizer *doubleTapGesture;
-@property (nonatomic ,strong) UIPanGestureRecognizer *panGesture;
+// UITapGestureRecognizer
+@property (nonatomic ,strong) UITapGestureRecognizer    *tapGesture;        // 单击手势
+@property (nonatomic ,strong) UITapGestureRecognizer    *doubleTapGesture;  // 双击手势
+@property (nonatomic ,strong) UIPanGestureRecognizer    *panGesture;        // 滑动手势
 @end
 
 NS_ASSUME_NONNULL_END

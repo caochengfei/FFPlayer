@@ -11,9 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FFBrightnessView : UIView
-
 + (instancetype)sharedBrightnessView;
-
 @end
 
 NS_ASSUME_NONNULL_END

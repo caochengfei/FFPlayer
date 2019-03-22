@@ -33,6 +33,7 @@
 		9543F4E12228D2CE0086B2CD /* FFNomalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4E02228D2CE0086B2CD /* FFNomalViewController.m */; };
 		9543F4E42228FB970086B2CD /* FFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9543F4E32228FB970086B2CD /* FFBrightnessView.m */; };
 		9543F4E62228FE240086B2CD /* playgesture_BrightnessSun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */; };
+		95534ACC22448B1400FAC079 /* FFListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95534ACB22448B1400FAC079 /* FFListTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		9543F4E22228FB970086B2CD /* FFBrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFBrightnessView.h; sourceTree = "<group>"; };
 		9543F4E32228FB970086B2CD /* FFBrightnessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFBrightnessView.m; sourceTree = "<group>"; };
 		9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playgesture_BrightnessSun@2x.png"; sourceTree = "<group>"; };
+		95534ACA22448B1300FAC079 /* FFListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFListTableViewCell.h; sourceTree = "<group>"; };
+		95534ACB22448B1400FAC079 /* FFListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFListTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				9543F4852227B0350086B2CD /* ViewController.m */,
 				9543F4DC2228D2C00086B2CD /* FFListViewController.h */,
 				9543F4DD2228D2C00086B2CD /* FFListViewController.m */,
+				95534ACA22448B1300FAC079 /* FFListTableViewCell.h */,
+				95534ACB22448B1400FAC079 /* FFListTableViewCell.m */,
 				9543F4DF2228D2CE0086B2CD /* FFNomalViewController.h */,
 				9543F4E02228D2CE0086B2CD /* FFNomalViewController.m */,
 				9543F4872227B0350086B2CD /* Main.storyboard */,
@@ -406,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95534ACC22448B1400FAC079 /* FFListTableViewCell.m in Sources */,
 				9543F4E12228D2CE0086B2CD /* FFNomalViewController.m in Sources */,
 				9543F4862227B0350086B2CD /* ViewController.m in Sources */,
 				9543F4912227B0360086B2CD /* main.m in Sources */,

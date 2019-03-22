@@ -219,6 +219,11 @@ typedef NS_ENUM(NSUInteger, FFPlayerStatus) {
     [self.commandView removeFromSuperview];
 }
 
+- (void)destroyPlayer {
+    [self resetPlayer];
+    [self removeFromSuperview];
+}
+
 /** 单击屏幕 */
 - (void)gestureActionSignel {
     self.commandView.topView.alpha == 0 ? [self showCommandView] : [self hideCommandView];
