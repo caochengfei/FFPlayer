@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FFPlayer"
-  s.version      = "0.1.0"
+  s.version      = "0.1.2"
   s.summary      = "A Video player base on AVPlayer."
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
