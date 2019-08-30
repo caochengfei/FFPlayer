@@ -204,19 +204,13 @@
 		9543F4B32227B0430086B2CD /* FFPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				9543F4B62227B0430086B2CD /* Images */,
-				9543F4B42227B0430086B2CD /* FFPlayerMacro.h */,
-				9543F4C32227B0430086B2CD /* FFVideoPlayer.h */,
-				9543F4C52227B0430086B2CD /* FFVideoPlayer.m */,
-				9543F4B52227B0430086B2CD /* FFPlayerCommandView.h */,
-				9543F4C42227B0430086B2CD /* FFPlayerCommandView.m */,
-				9543F4E22228FB970086B2CD /* FFBrightnessView.h */,
-				9543F4E32228FB970086B2CD /* FFBrightnessView.m */,
+				957DF00B2318BA7300D12AD4 /* FFPlayer */,
+				9543F4B62227B0430086B2CD /* Resource */,
 			);
 			path = FFPlayer;
 			sourceTree = "<group>";
 		};
-		9543F4B62227B0430086B2CD /* Images */ = {
+		9543F4B62227B0430086B2CD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				9543F4E52228FE240086B2CD /* playgesture_BrightnessSun@2x.png */,
@@ -233,7 +227,21 @@
 				9543F4C12227B0430086B2CD /* play_full_screen@3x.png */,
 				9543F4C22227B0430086B2CD /* play_full_screen@2x.png */,
 			);
-			path = Images;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		957DF00B2318BA7300D12AD4 /* FFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9543F4B42227B0430086B2CD /* FFPlayerMacro.h */,
+				9543F4C32227B0430086B2CD /* FFVideoPlayer.h */,
+				9543F4C52227B0430086B2CD /* FFVideoPlayer.m */,
+				9543F4B52227B0430086B2CD /* FFPlayerCommandView.h */,
+				9543F4C42227B0430086B2CD /* FFPlayerCommandView.m */,
+				9543F4E22228FB970086B2CD /* FFBrightnessView.h */,
+				9543F4E32228FB970086B2CD /* FFBrightnessView.m */,
+			);
+			path = FFPlayer;
 			sourceTree = "<group>";
 		};
 		9F232BFF8A37704426EAA250 /* Pods */ = {
@@ -246,7 +254,6 @@
 				AA6B2D509800EB67E5D6ECCE /* Pods-FFPlayerDemoUITests.debug.xcconfig */,
 				0FBD96FF6D9B7CC3248337E6 /* Pods-FFPlayerDemoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

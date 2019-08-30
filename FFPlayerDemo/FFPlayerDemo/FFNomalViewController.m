@@ -7,7 +7,7 @@
 //
 
 #import "FFNomalViewController.h"
-#import "FFPlayer/FFVideoPlayer.h"
+#import "FFVideoPlayer.h"
 
 
 @interface FFNomalViewController ()

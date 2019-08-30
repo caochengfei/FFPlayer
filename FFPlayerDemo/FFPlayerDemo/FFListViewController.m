@@ -7,7 +7,7 @@
 //
 
 #import "FFListViewController.h"
-#import "FFPlayer/FFVideoPlayer.h"
+#import "FFVideoPlayer.h"
 #import "FFListTableViewCell.h"
 
 @interface FFListViewController ()<UITableViewDelegate,UITableViewDataSource>
